@@ -15,5 +15,6 @@ the projectPatch marker describes delivery provenance. It is not a statement tha
 every byte in a modified container was authored by this project. Existing game and
 third-party rights/notices remain applicable; these files are not relicensed.
 
-Release object names are uppercase SHA-256 values. Release tags identify the
-trusted manifest build. Existing object identities must never be overwritten.
+Release object names are uppercase SHA-256 values. Release tags may hold several
+successive trusted manifests, with build-specific inventory and checksums.
+Existing object identities must never be overwritten.
